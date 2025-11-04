@@ -69,15 +69,15 @@ body {
   width: 100%;
 }
 
-.details{
+.details {
   width: 100%;
 }
 
-.details h3{
+.details h3 {
   color: #fff;
 }
 
-#progressbar{
+#progressbar {
   width: 100%;
   height: 7px;
   background: rgba(255, 194, 209, 0.3);
@@ -86,7 +86,7 @@ body {
   margin-top: 15px;
 }
 
-#progress{
+#progress {
   width: 0%;
   height: 100%;
   background: #ff6f91;
@@ -94,7 +94,7 @@ body {
   transition: width 0.3s ease;
 }
 
-#numbers{
+#numbers {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -249,4 +249,31 @@ body {
 }
 .task-buttons .delete-btn {
   background: #ff6f91;
+}
+
+/* Info: media Queries */
+@media (max-width: 600px) {
+  .container {
+    margin: 0 20px;
+    padding: 0 10px;
+  }
+
+  .todo-app {
+    padding: 1.5rem;
+    gap: 20px;
+  }
+
+  #numbers {
+    width: 60px;
+    height: 60px;
+    font-size: 1rem;
+  }
+
+  .input-area input {
+    font-size: 1rem;
+  }
+
+  #task-list li {
+    font-size: 1rem;
+  }
 }
