@@ -82,7 +82,6 @@ document.addEventListener("DOMContentLoaded", () => {
   };
 
   addtaskBtn.addEventListener("click", () => addTask());
-  e.preventDefault();
 
   taskInput.addEventListener("keypress", (e) => {
     if (e.key === "Enter") {
